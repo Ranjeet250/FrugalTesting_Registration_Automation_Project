@@ -1,0 +1,30 @@
+{
+  "name": "frugaltesting_registration_automation_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Complete Registration System with Automation Testing - Frugal Testing Assessment",
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open",
+    "test:specific": "cypress run --spec 'automation/test.js'",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox",
+    "test:headless": "cypress run --headless --browser chrome",
+    "dev": "http-server from -p 3000 -c-1",
+    "serve": "http-server from -p 3000"
+  },
+  "keywords": [
+    "registration",
+    "automation",
+    "testing",
+    "cypress",
+    "e2e",
+    "form-validation"
+  ],
+  "author": "Frugal Testing",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "http-server": "^14.1.1"
+  }
+}
